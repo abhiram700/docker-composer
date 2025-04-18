@@ -1,0 +1,6 @@
+Problem: no loadblancer for the containers
+Solution: installing nginix on the containers and making that to act as the load balancer for the containers to have high availability for the containers
+step1: install docker and the docker-compose om the machine
+setp2: create a Dockerfile to create the Nginix image
+Step3: write a decker compose file 
+step4: run the docker compose file
